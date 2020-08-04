@@ -8,7 +8,7 @@ Currently, It can encrypt and decrypt a very basic algorithm. Adding Base64 supp
 SpacePass is a cross-platform engine. It can run on any operating system that supports C++ Standard Library.
 
 
-# Let's talk about the capabilities of the SpacePass engine!
+# Let's talk about some capabilities of the SpacePass engine!
 ```cpp
  SpacePass::BasicEncryption(char plaintext[], bool writeToFile);
 ```
