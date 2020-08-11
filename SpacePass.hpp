@@ -39,7 +39,7 @@ namespace SpacePass{
                                         break;
 
                                 }
-                                if(plaintext[i] == 'z' || plaintext[i] == "Z"){
+                                if(plaintext[i] == 'z' || plaintext[i] == 'Z'){
 
 
                                         plaintext[i] = '0';
@@ -101,7 +101,6 @@ namespace SpacePass{
 
 
             }
-                
 
 
 
