@@ -15,11 +15,13 @@ SpacePass is under the terms of MIT licence.
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <vector>
+#include "include/SpaceBits.hpp"
 
 using namespace std;
 
 namespace SpacePass{
-    char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','w','x','y','z'};
+    char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','W','X','Y','Z'};
     void BasicEncryption(char plaintext[], bool writeToFile){ //Basic level encryption. That method scans your string letter-by-letter and 
 
             
@@ -27,7 +29,7 @@ namespace SpacePass{
             for(int i = 0; i < strlen(plaintext) ; i++){
 
                     
-                    for(int j = 0; j < 25; j++){
+                    for(int j = 0; j < 50; j++){
 
 
                                 if(plaintext[i] == alphabet[j]){
@@ -37,7 +39,7 @@ namespace SpacePass{
                                         break;
 
                                 }
-                                if(plaintext[i] == 'z'){
+                                if(plaintext[i] == 'z' || plaintext[i] == "Z"){
 
 
                                         plaintext[i] = '0';
@@ -105,6 +107,7 @@ namespace SpacePass{
 
 
     }
+
 
 
 
