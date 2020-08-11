@@ -74,7 +74,7 @@ namespace SpacePass{
             for(int i = 0; i < strlen(text); i++){
 
                     
-                    for(int j = 0; j < 25; j++){
+                    for(int j = 0; j < 50; j++){
 
 
                                 if(text[i] == alphabet[j]){
