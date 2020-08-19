@@ -137,7 +137,9 @@ namespace SpacePass{
 
 
     }
-    cout<<"The original text is : "<<text<<endl<<"The Space64 encrypted text is : ";
+    if(isDebugMode){
+    	
+       cout<<"The original text is : "<<text<<endl<<"The Space64 encrypted text is : ";
     for(int i = 0; i < output.size(); i++){
     	
     	
@@ -145,7 +147,11 @@ namespace SpacePass{
     	
     	
     	
+	} 	
+    	
+    	
 	}
+
 
 	if(writeToFile == true){
 		
