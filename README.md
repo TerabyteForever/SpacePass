@@ -20,4 +20,12 @@ With this function, you can encrypt the text that you've sent to engine with usi
 
 With this function, you can decrypt the text that you've sent to engine over the text parameter. It must be the same algorithm as before to encrypt it.
 
+# Space64 Algorithm
+Space64 is a Base64-like algorithm. It hasn't got padding character, and it is a little bit different than Base64 on encryption side.
+
+```cpp
+ SpacePass::EncryptSpace64(char text[], bool writeToFile, bool isDebugMode);
+```
+(Currently, you can't decrypt it :))
+
 ### SpacePass is licenced under the terms of MIT licence.
