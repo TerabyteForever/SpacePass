@@ -1,7 +1,7 @@
 # SpacePass
 A password "engine" for C++ developers to use in their apps.
 
-Currently, It can encrypt and decrypt a very basic algorithm. Adding Base64 support is on my TODO list.
+Currently, It can encrypt and decrypt a very basic algorithm. It supports encrypt-only Space64.
 
 # Cross platform support
 
